@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  height: 100%;
+  overflow: hidden; /* Empêche le défilement */
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  backface-visibility: hidden;
+}
+
+#root {
+  height: 100%;
+}
+.home h1 {
+  color: #ff104f;
+  margin-bottom: 1rem;
+  font-size: 96px;
+}
+
+h2,
+p {
+  color: white;
+}
+
+h2 {
+  font-size: 36px;
+  padding-left: 20rem;
+}
+p {
+  font-size: 18px;
+}
+
+h3 {
+  color: white;
+  font-size: 22px;
+}
+.rectangle {
+  width: 120px;
+  height: 40px;
+  background: #ff104f;
+  transform: rotate(-90deg);
+  margin: 10px;
+  position: fixed; /* Garde le rectangle fixe à l'écran */
+  top: 95%; /* Centré verticalement */
+  left: 10px; /* Positionné à gauche avec un petit espace */
+  transform: translateY(-50%) rotate(-90deg); /* Centre parfaitement et applique la rotation */
+}

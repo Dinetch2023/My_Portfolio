@@ -1,0 +1,41 @@
+.about {
+  width: 100%;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.image {
+  background-image: url("../../assets/moi.png");
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 150px;
+  margin-right: 50px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.container p {
+  flex: 1;
+  margin: 0 20px;
+  text-align: justify;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.image1 {
+  width: 1400px;
+  height: 250px;
+
+  margin-top: 20px;
+}

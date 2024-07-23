@@ -1,0 +1,53 @@
+.container {
+  margin-top: 30px;
+}
+.container-item {
+  width: 100px;
+  column-width: 20em;
+  margin: 0 10px;
+  flex: 1;
+  line-height: 2rem;
+}
+
+.container-item h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+#trait {
+  border-top: 1px solid #ff104f;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  text-align: center;
+  justify-content: space-around;
+  flex: 1;
+}
+
+.container-item p {
+  margin: 10px 30px;
+  text-align: justify;
+}
+.image2,
+.image3 {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto; /* Utilise auto pour garder les proportions des images */
+}
+.image2 {
+  height: 17rem;
+  margin-top: 10px;
+}
+
+.image3 {
+  height: 10rem;
+  width: 20rem;
+  margin-bottom: 20px;
+}

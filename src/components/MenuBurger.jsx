@@ -41,11 +41,6 @@ const MenuBurger = () => {
             Mes Compétences
           </NavLink>
         </li>
-        <li className="navbar-item">
-          <NavLink to="/contact" onClick={toggleMenu}>
-            Me Contacter
-          </NavLink>
-        </li>
       </ul>
     </nav>
   );

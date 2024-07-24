@@ -7,8 +7,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Parcours from "./pages/Parcours";
 import Projets from "./pages/Projets";
-import Technologies from "./pages/Technologies";
-import Contact from "./pages/Contact";
+import Technologies from "./pages/Competences";
+
 import "./index.css";
 
 const router = createBrowserRouter([
@@ -34,10 +34,6 @@ const router = createBrowserRouter([
       {
         path: "technologies",
         element: <Technologies />,
-      },
-      {
-        path: "contact",
-        element: <Contact />,
       },
     ],
   },

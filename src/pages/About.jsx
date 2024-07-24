@@ -8,7 +8,7 @@ function About() {
         <h2>Bienvenue !</h2>
         <img class="image" />
       </div>
-      <div className="container">
+      <div className="container-about">
         <p>
           Je m'appelle Amandine ETCHART, et je suis ravie de vous présenter mon
           parcours de reconversion professionnelle, passant du métier

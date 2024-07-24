@@ -4,8 +4,8 @@ function Technologies() {
   return (
     <section className="techno">
       <h2>Technologies</h2>
-      <div className="container">
-        <div className="container-item">
+      <div className="container-techno">
+        <div className="container1">
           <h3>Langages & Librairies</h3>
           <ul>
             <li>HTML5</li>
@@ -14,7 +14,7 @@ function Technologies() {
             <li>React</li>
           </ul>
         </div>
-        <div className="container-item">
+        <div className="container1">
           <h3>Frameworks</h3>
           <ul>
             <li>NodeJS</li>
@@ -23,7 +23,7 @@ function Technologies() {
             <li>NextJS</li>
           </ul>
         </div>
-        <div className="container-item">
+        <div className="container1">
           <h3>Design</h3>
           <ul>
             <li>Figma</li>

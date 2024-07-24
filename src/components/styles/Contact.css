@@ -1,0 +1,31 @@
+/* Contact.css */
+.contact {
+  position: fixed;
+  right: 20px; /* Distance from the right side of the viewport */
+  bottom: 20px; /* Distance from the bottom of the viewport */
+  padding: 20px;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  z-index: 1000; /* Ensures it stays above other elements */
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+}
+
+.icon-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #929090;
+  margin: 10px 0;
+}
+
+.icon-link:hover {
+  color: #ff104f;
+}
+
+.icon-link span {
+  margin-left: 10px;
+}

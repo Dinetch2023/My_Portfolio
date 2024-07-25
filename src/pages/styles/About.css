@@ -1,13 +1,12 @@
 .container-about {
   display: flex;
   flex-direction: row;
-  justify-content: center; /* Centre horizontalement les enfants */
-  align-items: stretch; /* Les enfants auront la même hauteur */
-  width: 50%; /* Ajuste la largeur si nécessaire */
-  margin: 0 auto; /* Centre le conteneur-about horizontalement dans son parent */
+  justify-content: center;
+  align-items: stretch;
+  width: 50%;
+  margin: 0 auto;
 }
 
-/* Style des paragraphes à l'intérieur du conteneur-about */
 .container-about p {
   flex: 1;
   margin: 20px 50px;
@@ -15,14 +14,10 @@
   line-height: 2rem;
 }
 
-/* Autres styles */
 .image {
-  background-image: url("../../assets/moi.png");
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 120px;
   height: 150px;
-  margin-right: 50px;
+  margin-left: 60px;
   border: none;
 }
 

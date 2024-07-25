@@ -1,12 +1,14 @@
 import "../pages/styles/About.css";
-
 import image1 from "../assets/image1.jpg";
+import moi from "../assets/moi.png";
+
 function About() {
   return (
     <section className="about">
       <div className="title">
         <h2>Bienvenue !</h2>
-        <img class="image" />
+        <img className="image" src={moi} alt="Amandine Etchart" /> // Use the
+        imported image as the src
       </div>
       <div className="container-about">
         <p>

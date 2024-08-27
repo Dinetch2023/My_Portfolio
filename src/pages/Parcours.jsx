@@ -18,14 +18,14 @@ function Parcours() {
             nombreux enfants dans leur développement, en mettant en place des
             activités pédagogiques et en collaborant étroitement avec les
             familles. Cette expérience m'a permis de développer des compétences
-            essentielles telles que la communication, la gestion de projet, et
-            la pédagogie.
+            essentielles telles que la communication, la gestion de projet, la
+            pédagogie mais aussi la persévérance et l'écoute.
           </p>
           <img className="image2" src={image2} alt="robot" />
         </div>
         <div className="container-item">
           <img className="image3" src={image3} alt="clavier" />
-          <h3>Développement Web</h3>
+          <h3>Développeuse Web</h3>
           <div id="trait"></div>
 
           <p>

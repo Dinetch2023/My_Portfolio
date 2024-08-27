@@ -1,41 +1,38 @@
-.container-about {
+/* Atouts.css */
+
+.atouts {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: stretch;
-  width: 50%;
-  margin: 0 auto;
-}
-
-.container-about p {
-  flex: 1;
-  margin: 20px 50px;
-  text-align: justify;
-  line-height: 2rem;
-}
-
-.image {
-  width: 120px;
-  height: 150px;
-  margin-left: 60rem;
-  border: none;
-}
-
-.title {
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
 }
 
-.container2 {
+.title-atouts h2 {
+  margin-bottom: 20px;
+}
+
+.container-atouts {
+  flex: 1;
+  max-width: 60%;
+}
+
+.chart-container {
+  flex: 1;
+  max-width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
 }
 
-.image1 {
-  width: 1000px;
-  height: 200px;
-  margin-top: 40px;
+@media (max-width: 768px) {
+  .atouts {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-atouts,
+  .chart-container {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
 }

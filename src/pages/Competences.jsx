@@ -1,9 +1,9 @@
 import "../pages/styles/Competences.css";
 
-function Technologies() {
+function Competences() {
   return (
     <section className="techno">
-      <h2>Mes Compétences</h2>
+      <h2>Mes Compétences Techniques</h2>
       <div className="container-techno">
         <div className="container1">
           <h3>Langages & Librairies</h3>
@@ -35,4 +35,4 @@ function Technologies() {
   );
 }
 
-export default Technologies;
+export default Competences;

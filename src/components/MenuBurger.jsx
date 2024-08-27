@@ -32,12 +32,17 @@ const MenuBurger = () => {
           </NavLink>
         </li>
         <li className="navbar-item">
+          <NavLink to="atouts" onClick={toggleMenu}>
+            Mes Atouts
+          </NavLink>
+        </li>
+        <li className="navbar-item">
           <NavLink to="/projets" onClick={toggleMenu}>
             Mes Projets
           </NavLink>
         </li>
         <li className="navbar-item">
-          <NavLink to="/technologies" onClick={toggleMenu}>
+          <NavLink to="/competences" onClick={toggleMenu}>
             Mes Compétences
           </NavLink>
         </li>

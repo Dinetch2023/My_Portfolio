@@ -2,7 +2,7 @@ import "../components/styles/Contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faFileAlt, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import CV from "../../public/CV.pdf";
+import CV from "../../public/CVDeveloppeuseWeb.pdf";
 
 function Contact() {
   return (
